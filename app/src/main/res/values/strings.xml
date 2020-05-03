@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Умный Врач</string>
+    <string name="Welcome">Добро пожаловать!</string>
+    <string name="or">или</string>
+    <string name="login">  Логин</string>
+    <string name="pas">  Пароль</string>
+    <string name="voiti">Войти</string>
+    <string name="reg">Зарегистрироваться</string>
+    <string name="regact">Регистрация</string>
+    <string name="menu">Главное меню</string>
+    <string name="info">О программе</string>
+    <string name="ac">Профиль</string>
+    <string name="spec">Специалисты</string>
+    <string name="chats">Чат</string>
+    <string name="dop">Обратная связь</string>
+    <string name="rec">Карта</string>
+    <string name="re">Карты</string>
+    <string name="hh">Здесь будут хранится записи в вашу медецинскую карту</string>
+    <string name="ree">Карты клиентов</string>
+    <string name="zam">Прием лекарств</string>
+    <string name="men">Выйти</string>
+    <string name="imy">Имя</string>
+    <string name="utr">Добавить прием лекарств на утро </string>
+    <string name="den">Добавить прием лекарств на день </string>
+    <string name="vech">Добавить прием лекарств на вечер </string>
+    <string name="q">Добавте сюда ваш прием лекарств на утро </string>
+    <string name="qq">Добавте сюда ваш прием лекарств на день </string>
+    <string name="qqq">Добавте сюда ваш прием лекарств на вечер </string>
+    <string name="fam">Фамилия</string>
+    <string name="Diplom">Диплом</string>
+    <string name="age">Возраст</string>
+    <string name="age2">Возраст:</string>
+    <string name="adr">email</string>
+    <string name="add">Добавте сюда прием лекарств</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="pol">пол</string>
+    <string name="pol2">Пол:</string>
+    <string name="vrach">Врач</string>
+    <string name="pacient">Пациент</string>
+    <string name="ok">ok</string>
+    <string name="t">Загрузить изображение мед. диплома</string>
+    <string name="sp">Специальность</string>
+    <string name="cancel">Отмена</string>
+    <string name="aboutme">Изменить информацию о себе</string>
+    <string name="s">Сюда вы можете добавить дополнительную информацию о себе</string>
+    <string name="osebe">О себе:</string>
+    <string name="clients">Список клиентов</string>
+    <string name="requests">Заявки специалистов</string>
+    <string name="list">Список специалистов</string>
+    <string name="admin1">Заявки специалистов на подтверждение регистрации</string>
+    <string name="admin2">Список зарегистрированных специалистов</string>
+    <string name="message1">Хотите продолжить регистарцию как </string>
+    <string name="message2">Добро пожаловать, вы используете приложение "Умный врач". Надеюсь оно поможет вам заботиться
+        о своем здоровье с комфортом! </string>
+    <string name="message3">Приложение разработал Тимур Зиятдинов БПИ181. По всем вопросам писать на почту "taziyatdinov@edu.hse.ru"
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

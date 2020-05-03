@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context=".MainMenu_doc">
+
+    <Button
+        android:id="@+id/buttonnn2"
+        android:layout_width="166dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/info"
+        android:drawablePadding="-10sp"
+        android:onClick="Contacts"
+        android:paddingTop="15sp"
+        android:text="@string/info"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toEndOf="@+id/buttonnn7"
+        app:layout_constraintTop_toBottomOf="@+id/buttonnn8" />
+
+    <Button
+        android:id="@+id/buttonnn8"
+        android:layout_width="166dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/rec"
+        android:drawablePadding="-10sp"
+        android:onClick="makeCard"
+        android:paddingTop="29sp"
+        android:text="@string/re"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toEndOf="@+id/buttonnn7"
+        app:layout_constraintTop_toBottomOf="@+id/buttonnn" />
+
+    <Button
+        android:id="@+id/buttonnn7"
+        android:layout_width="165dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/obrat"
+        android:drawablePadding="-10sp"
+        android:onClick="Info"
+        android:paddingTop="15sp"
+        android:text="@string/dop"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonnn5" />
+
+    <Button
+        android:id="@+id/buttonnn"
+        android:layout_width="340dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Profile"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/profv"
+        android:drawablePadding="-5sp"
+        android:paddingTop="10sp"
+        android:text="@string/ac"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonnn5"
+        android:layout_width="165dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/list2"
+        android:drawablePadding="-5sp"
+        android:onClick="Chat"
+        android:paddingTop="30sp"
+        android:text="@string/clients"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonnn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

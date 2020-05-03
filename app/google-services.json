@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1010667846678",
+    "firebase_url": "https://kr-umniyvrach.firebaseio.com",
+    "project_id": "kr-umniyvrach",
+    "storage_bucket": "kr-umniyvrach.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010667846678:android:634756735e0ffc07efc937",
+        "android_client_info": {
+          "package_name": "com.example.umniyvrach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010667846678-algaq69h9hmupjpte02tv5kh3q5fl1u0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.umniyvrach",
+            "certificate_hash": "dc36cc57ecadc0cf64965792b1a300f1eebb358d"
+          }
+        },
+        {
+          "client_id": "1010667846678-8eanl9mgm935s39p9tp6b4jcvju006r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0w9cv5BmSpzhPbtSnTeS43MODEV4Nyh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010667846678-8eanl9mgm935s39p9tp6b4jcvju006r7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

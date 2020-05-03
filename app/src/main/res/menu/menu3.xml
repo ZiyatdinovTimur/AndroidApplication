@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/men3"
+        android:orderInCategory="100"
+        android:title="@string/utr"
+        />
+    <item
+        android:id="@+id/men4"
+        android:orderInCategory="100"
+        android:title="@string/den"
+        />
+    <item
+        android:id="@+id/men5"
+        android:orderInCategory="100"
+        android:title="@string/vech"
+        />
+</menu>

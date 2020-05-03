@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="165dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/info"
+        android:onClick="Info"
+        android:paddingTop="25sp"
+        android:textSize="16sp"
+        android:text="@string/info"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="165dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/obrat"
+        android:onClick="Contacts"
+        android:paddingTop="25sp"
+        android:textSize="16sp"
+        android:text="@string/dop"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="165dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/rec"
+        android:onClick="Recepts"
+        android:paddingTop="25sp"
+        android:textSize="16sp"
+        android:text="@string/rec"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="165dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/spec"
+        android:onClick="specialist"
+        android:paddingTop="25sp"
+        android:textSize="16sp"
+        android:text="@string/spec"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/person3"
+        android:onClick="Profile"
+        android:paddingTop="25sp"
+        android:textSize="16sp"
+        android:text="@string/ac"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="165dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/round2"
+        android:drawableTop="@drawable/zam"
+        android:onClick="Chat"
+        android:paddingTop="25sp"
+        android:textSize="16sp"
+        android:text="@string/zam"
+        android:textColor="@color/w"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>
